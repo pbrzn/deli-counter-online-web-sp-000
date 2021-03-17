@@ -1,5 +1,3 @@
-other_deli=["Logan", "Avi", "Spencer"]
-
 def line(names)
   our_line=[]
   if names.size==0
@@ -26,8 +24,8 @@ def now_serving(customers)
   end
   until customers.size==0
     puts "Currently serving #{customers[0]}."
-    customers.shift
     binding.pry
+    customers.shift
   end
 end
 
