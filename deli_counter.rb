@@ -1,3 +1,5 @@
+require "pry"
+
 def line(names)
   our_line=[]
   if names.size==0
