@@ -24,8 +24,6 @@ def now_serving(customers)
   if customers.size==0
     puts "There is nobody waiting to be served!"
   end
-  until customers.size==0
-    puts "Currently serving #{customers[0]}."
-    customers.shift
-  end
+  puts "Currently serving #{customers[0]}."
+  customers.shift
 end
