@@ -28,5 +28,3 @@ def now_serving(customers)
     customers.shift
   end
 end
-
-now_serving(other_deli)
